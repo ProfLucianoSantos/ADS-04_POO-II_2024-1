@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Cliente e Produto</title>
+</head>
+<body>
+    <h1>Cadastro de Cliente e Produto</h1>
+    <form action="processar_pedido.php" method="POST">
+        <label for="cliente">Nome do Cliente:</label>
+        <input type="text" name="cliente" id="cliente"><br><br>
+
+        <label for="produto">Nome do Produto:</label>
+        <input type="text" name="produtos" id="produtos"><br><br>
+
+
+        <label for="preco">Preço:</label>
+        <input type="number" name="preco" id="preco" step="0.01"><br><br>
+
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
